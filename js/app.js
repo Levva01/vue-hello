@@ -1,5 +1,8 @@
 var app = new Vue(
 	{
-		el: "#root",
+		el: "#app",
+        data: {
+            hello: "Hello Vue!"
+        },
 	}
 );
